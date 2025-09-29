@@ -1,0 +1,176 @@
+
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Startup — Smart Solutions</title>
+  <meta name="description" content="A student-built AI startup website — built with React-like structure using plain HTML, Tailwind CSS, and simple JS.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+  <!-- NAV -->
+  <header class="bg-white shadow sticky top-0 z-40">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold">AI</div>
+        <div>
+          <a href="#" class="text-xl font-semibold">YourAIStartup</a>
+          <div class="text-xs text-slate-500">Student Project • B.Tech Team</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-slate-600">
+        <a href="#about" class="hover:text-slate-900">About</a>
+        <a href="#product" class="hover:text-slate-900">Product</a>
+        <a href="#team" class="hover:text-slate-900">Team</a>
+        <a href="#contact" class="hover:text-slate-900">Contact</a>
+      </nav>
+      <div class="md:hidden">☰</div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-5xl mx-auto px-6 py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+      We’re building AI to simplify <span class="text-indigo-600">real-world problems</span>
+    </h1>
+    <p class="mt-6 text-lg text-slate-600 max-w-3xl mx-auto">
+      A student-led AI startup from B.Tech — building intelligent tools that make processes smarter, faster and more sustainable.
+    </p>
+    <div class="mt-8 flex items-center justify-center gap-4">
+      <a href="#contact" class="px-6 py-3 bg-indigo-600 text-white rounded-md shadow hover:bg-indigo-700">Get Started</a>
+      <a href="#product" class="px-6 py-3 border border-slate-200 rounded-md text-slate-700">Our Product</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-white py-16">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-2xl font-bold">About Us</h2>
+        <p class="mt-4 text-slate-600">
+          हम B.Tech के छात्र हैं और AI के ज़रिये practical problems का solution बनाते हैं। हमारी मिशन है - सरल, प्रभावी और टिकाऊ समाधान बनाना।
+        </p>
+        <ul class="mt-4 space-y-2 text-slate-600">
+          <li>• छात्र-निर्देशित टीम — तेजी से प्रोटोटाइप बनाना</li>
+          <li>• AI-first डिज़ाइन — मॉडल और डैशबोर्ड दोनों</li>
+          <li>• Deployable-ready — GitHub Pages / Vercel पर आसानी से होस्ट करें</li>
+        </ul>
+      </div>
+      <div>
+        <div class="rounded-xl p-6 bg-slate-50 shadow-md">
+          <h3 class="font-semibold">Mission</h3>
+          <p class="mt-2 text-slate-600">Economically sustainable zero-waste and automation for enterprises (inspired by startups like Ameru).</p>
+          <h3 class="mt-4 font-semibold">Vision</h3>
+          <p class="mt-2 text-slate-600">Real impact using small, reliable AI models and clear UX that helps adoption.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT -->
+  <section id="product" class="py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-bold text-center">Product & Features</h2>
+      <p class="mt-3 text-center text-slate-600">Simple, extendable modules you can build and demo as a student team.</p>
+
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-xl shadow">
+          <div class="text-3xl">🔍</div>
+          <h4 class="mt-4 font-semibold">AI Classification</h4>
+          <p class="mt-2 text-slate-600 text-sm">Train a small CNN or MobileNet-based model to classify images for your use-case (e.g., waste sorting).</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow">
+          <div class="text-3xl">📊</div>
+          <h4 class="mt-4 font-semibold">Dashboard</h4>
+          <p class="mt-2 text-slate-600 text-sm">A simple dashboard to visualize predictions, system health and basic analytics.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow">
+          <div class="text-3xl">⚙️</div>
+          <h4 class="mt-4 font-semibold">Edge & Cloud</h4>
+          <p class="mt-2 text-slate-600 text-sm">Run lightweight models on Jetson / Raspberry Pi and sync results to a cloud backend for analytics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="bg-white py-16">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-2xl font-bold">Team</h2>
+      <p class="mt-3 text-slate-600">Student team — roles you can show on your resume.</p>
+
+      <div class="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="p-4 bg-slate-50 rounded-lg">
+          <div class="h-28 w-full bg-gradient-to-br from-indigo-300 to-purple-300 rounded-md flex items-center justify-center font-bold text-white">A</div>
+          <h5 class="mt-3 font-semibold">Avanish Thapliya</h5>
+          <p class="text-sm text-slate-600">Team Lead • Product & Frontend</p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-lg">
+          <div class="h-28 w-full bg-gradient-to-br from-emerald-300 to-teal-300 rounded-md flex items-center justify-center font-bold text-white">S</div>
+          <h5 class="mt-3 font-semibold">Student Two</h5>
+          <p class="text-sm text-slate-600">ML Engineer</p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-lg">
+          <div class="h-28 w-full bg-gradient-to-br from-yellow-300 to-orange-300 rounded-md flex items-center justify-center font-bold text-white">D</div>
+          <h5 class="mt-3 font-semibold">Student Three</h5>
+          <p class="text-sm text-slate-600">Backend & DevOps</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16">
+    <div class="max-w-3xl mx-auto px-6 bg-white rounded-xl shadow p-8">
+      <h3 class="text-xl font-semibold">Contact Us</h3>
+      <p class="mt-2 text-slate-600">Questions? Collaborations? Drop a message.</p>
+      <!-- NOTE: Replace the `FORM_ACTION_URL` with your Formspree or Netlify Forms action -->
+      <form id="contactForm" class="mt-4 space-y-4" onsubmit="handleSubmit(event)">
+        <div>
+          <label class="block text-sm text-slate-700">Name</label>
+          <input id="name" required class="mt-1 w-full border rounded-md px-3 py-2" />
+        </div>
+        <div>
+          <label class="block text-sm text-slate-700">Email</label>
+          <input id="email" type="email" required class="mt-1 w-full border rounded-md px-3 py-2" />
+        </div>
+        <div>
+          <label class="block text-sm text-slate-700">Message</label>
+          <textarea id="message" required class="mt-1 w-full border rounded-md px-3 py-2"></textarea>
+        </div>
+        <div class="flex items-center gap-4">
+          <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-md">Send</button>
+          <div id="status" class="text-sm text-slate-600"></div>
+        </div>
+      </form>
+      <p class="mt-4 text-xs text-slate-500">Tip: For working contact form, sign up at https://formspree.io and replace FORM_ACTION_URL in README.</p>
+    </div>
+  </section>
+
+  <footer class="py-8">
+    <div class="max-w-5xl mx-auto px-6 text-center text-slate-500 text-sm">
+      © 2025 YourAIStartup — Built by B.Tech students.
+    </div>
+  </footer>
+
+<script>
+function handleSubmit(e) {
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+  const status = document.getElementById('status');
+  status.textContent = "Sending... (demo mode — not actually sent)";
+  // Demo behaviour: save to localStorage (so you can see messages locally)
+  const saved = JSON.parse(localStorage.getItem('messages') || '[]');
+  saved.push({name, email, message, time: new Date().toISOString()});
+  localStorage.setItem('messages', JSON.stringify(saved));
+  status.textContent = "Message saved locally. To enable real email, follow README.";
+  document.getElementById('contactForm').reset();
+}
+</script>
+
+</body>
+</html>

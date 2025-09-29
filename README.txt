@@ -1,0 +1,4 @@
+Load cell testbed by RRacer on Thingiverse: https://www.thingiverse.com/thing:3129439
+
+Summary:
+ Update 2018-10-02 The base was a bit weak so I added a new one that will handle up to 5 kg if printed in PLA - more if you use stronger plastics.When prototyping a project that includes a weight sensor, building a mock-up for the sensor is often difficult, time consuming and low precision.These two prints make up a simple test bed for low load prototyping.Printed in PLA it's good for at least 1 kg, more if you use more exotic filaments.This is designed to match a very common type of load cell, 80x12,7x12,7 mm, hole spacing 15 mm.If you have a load cell of a different size I would be happy to make a version to that specification. Get in touch.The bottom part looks like the Mercedes star, but that's purely coincidental.
